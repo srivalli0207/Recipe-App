@@ -1,0 +1,332 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.databinding:viewbinding:8.7.2] /Users/srivallik./.gradle/caches/8.9/transforms/f37e46324b21ed7e1a45a30a02100aa0/transformed/viewbinding-8.7.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/srivallik./.gradle/caches/8.9/transforms/09bdba7cbfef57b8f0f3a255f709b54f/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/554c323fc6a9bb01dcd34b0b60d059e6/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.airbnb.android:lottie:6.6.0] /Users/srivallik./.gradle/caches/8.9/transforms/023a87d83d2f8646606febd4ad800032/transformed/lottie-6.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/srivallik./.gradle/caches/8.9/transforms/c76a93667718b0cbf2a0db6df8ad17a5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/srivallik./.gradle/caches/8.9/transforms/eb0052f1a27563cdddba5be194782c77/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/4038439379a8830e27e0d753a78e0015/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/b7ba592e0068d53af03f0048380866fc/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/srivallik./.gradle/caches/8.9/transforms/22d99e21ba82f34fdbc0a97a241edf0e/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/srivallik./.gradle/caches/8.9/transforms/0573416792239edf8bd5d4ba462029f4/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/035951b89b1c8ad802bbb0e5e56f1559/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/c88e4b3ba8d3fdf20061e84f898ee97c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5b7231113e84c468683e9a72452a1af/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/03bc3f96cf2ba7a6ba1940c2b2e479c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/a6d122b7092da69f1f313d8616267611/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/fbcfb69cba04b67587a377328d148f32/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/7c0b47a3993bbec8b7c38c79b0a30aee/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/9c3e5e287354b173c1fdfa5f551a309f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/873029bf53452f29dd476bbf7b94aeff/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/6a3d5cc71b8e230393264b8a96ccde50/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/492d762dd1bd276d3b5f1890393b790e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/srivallik./.gradle/caches/8.9/transforms/f5936171c940f494548e7156eb31b0a8/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/2fa75e7f363661fcc7d314936e73d7b6/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/5bf85e13df7a8485defcb07e980193ae/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/ef6b321224d7e29f717f6d8dbc2a079c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/79821b1f881d57c9c27e2bd17ce4b8d6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/8bf8e8fc063b9bcb97331854e37f6d5e/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc8abc098ec03118efdd7b6502660e5d/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/1a64cc4043077bcaaf799d649ca219ff/transformed/room-ktx-2.5.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/srivallik./.gradle/caches/8.9/transforms/644ada2b01196401f92c60926f0491ea/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/srivallik./.gradle/caches/8.9/transforms/4201b6967fbe1d200ae47a2b03f3c220/transformed/sqlite-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/26a108fc08527ec07b20cb44d37e6e80/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/122da667b73de805455abc26fa27cc97/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/b9e249c7c94f2f056b04e44cb1e24c6c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/3e9a2ca3133cf7acdd8f0edde8331697/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/65abe2bbf9281fdb903f220d7e783a9c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/4b62ae5ab3b18292f40a9e97a1ba01c0/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/71bfe1108456f65477b5007187f9c572/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/0db90da8f87815c6a0f01c0e63c300a6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/ff13ec860e45df432b6f36effac4cef3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/srivallik./.gradle/caches/8.9/transforms/bd74aca7544af4535cbdf4f4078dda1c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:6:5-26:19
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/srivallik./.gradle/caches/8.9/transforms/09bdba7cbfef57b8f0f3a255f709b54f/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/srivallik./.gradle/caches/8.9/transforms/09bdba7cbfef57b8f0f3a255f709b54f/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/554c323fc6a9bb01dcd34b0b60d059e6/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/554c323fc6a9bb01dcd34b0b60d059e6/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.6.0] /Users/srivallik./.gradle/caches/8.9/transforms/023a87d83d2f8646606febd4ad800032/transformed/lottie-6.6.0/AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.6.0] /Users/srivallik./.gradle/caches/8.9/transforms/023a87d83d2f8646606febd4ad800032/transformed/lottie-6.6.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/65abe2bbf9281fdb903f220d7e783a9c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/65abe2bbf9281fdb903f220d7e783a9c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:14:9-49
+	android:dataExtractionRules
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:8:9-65
+activity#com.example.to_dolistapp.MainActivity
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:18:13-36
+	tools:ignore
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:19:13-40
+	android:name
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.7.2] /Users/srivallik./.gradle/caches/8.9/transforms/f37e46324b21ed7e1a45a30a02100aa0/transformed/viewbinding-8.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.7.2] /Users/srivallik./.gradle/caches/8.9/transforms/f37e46324b21ed7e1a45a30a02100aa0/transformed/viewbinding-8.7.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/srivallik./.gradle/caches/8.9/transforms/09bdba7cbfef57b8f0f3a255f709b54f/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/srivallik./.gradle/caches/8.9/transforms/09bdba7cbfef57b8f0f3a255f709b54f/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/554c323fc6a9bb01dcd34b0b60d059e6/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/554c323fc6a9bb01dcd34b0b60d059e6/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.6.0] /Users/srivallik./.gradle/caches/8.9/transforms/023a87d83d2f8646606febd4ad800032/transformed/lottie-6.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.6.0] /Users/srivallik./.gradle/caches/8.9/transforms/023a87d83d2f8646606febd4ad800032/transformed/lottie-6.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/srivallik./.gradle/caches/8.9/transforms/c76a93667718b0cbf2a0db6df8ad17a5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/srivallik./.gradle/caches/8.9/transforms/c76a93667718b0cbf2a0db6df8ad17a5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/srivallik./.gradle/caches/8.9/transforms/eb0052f1a27563cdddba5be194782c77/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/srivallik./.gradle/caches/8.9/transforms/eb0052f1a27563cdddba5be194782c77/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/4038439379a8830e27e0d753a78e0015/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/4038439379a8830e27e0d753a78e0015/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/b7ba592e0068d53af03f0048380866fc/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/b7ba592e0068d53af03f0048380866fc/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/srivallik./.gradle/caches/8.9/transforms/22d99e21ba82f34fdbc0a97a241edf0e/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/srivallik./.gradle/caches/8.9/transforms/22d99e21ba82f34fdbc0a97a241edf0e/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /Users/srivallik./.gradle/caches/8.9/transforms/0573416792239edf8bd5d4ba462029f4/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/srivallik./.gradle/caches/8.9/transforms/0573416792239edf8bd5d4ba462029f4/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/035951b89b1c8ad802bbb0e5e56f1559/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/035951b89b1c8ad802bbb0e5e56f1559/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/c88e4b3ba8d3fdf20061e84f898ee97c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/c88e4b3ba8d3fdf20061e84f898ee97c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5b7231113e84c468683e9a72452a1af/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5b7231113e84c468683e9a72452a1af/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/03bc3f96cf2ba7a6ba1940c2b2e479c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/03bc3f96cf2ba7a6ba1940c2b2e479c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/a6d122b7092da69f1f313d8616267611/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/a6d122b7092da69f1f313d8616267611/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/fbcfb69cba04b67587a377328d148f32/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/fbcfb69cba04b67587a377328d148f32/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/7c0b47a3993bbec8b7c38c79b0a30aee/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/7c0b47a3993bbec8b7c38c79b0a30aee/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/9c3e5e287354b173c1fdfa5f551a309f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/9c3e5e287354b173c1fdfa5f551a309f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/873029bf53452f29dd476bbf7b94aeff/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/873029bf53452f29dd476bbf7b94aeff/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/6a3d5cc71b8e230393264b8a96ccde50/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/6a3d5cc71b8e230393264b8a96ccde50/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/492d762dd1bd276d3b5f1890393b790e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/srivallik./.gradle/caches/8.9/transforms/492d762dd1bd276d3b5f1890393b790e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/srivallik./.gradle/caches/8.9/transforms/f5936171c940f494548e7156eb31b0a8/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/srivallik./.gradle/caches/8.9/transforms/f5936171c940f494548e7156eb31b0a8/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/2fa75e7f363661fcc7d314936e73d7b6/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/2fa75e7f363661fcc7d314936e73d7b6/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/5bf85e13df7a8485defcb07e980193ae/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/5bf85e13df7a8485defcb07e980193ae/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/ef6b321224d7e29f717f6d8dbc2a079c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/ef6b321224d7e29f717f6d8dbc2a079c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/79821b1f881d57c9c27e2bd17ce4b8d6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/79821b1f881d57c9c27e2bd17ce4b8d6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/8bf8e8fc063b9bcb97331854e37f6d5e/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/8bf8e8fc063b9bcb97331854e37f6d5e/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc8abc098ec03118efdd7b6502660e5d/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc8abc098ec03118efdd7b6502660e5d/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/1a64cc4043077bcaaf799d649ca219ff/transformed/room-ktx-2.5.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/1a64cc4043077bcaaf799d649ca219ff/transformed/room-ktx-2.5.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/srivallik./.gradle/caches/8.9/transforms/644ada2b01196401f92c60926f0491ea/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/srivallik./.gradle/caches/8.9/transforms/644ada2b01196401f92c60926f0491ea/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/srivallik./.gradle/caches/8.9/transforms/4201b6967fbe1d200ae47a2b03f3c220/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/srivallik./.gradle/caches/8.9/transforms/4201b6967fbe1d200ae47a2b03f3c220/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/26a108fc08527ec07b20cb44d37e6e80/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/26a108fc08527ec07b20cb44d37e6e80/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/122da667b73de805455abc26fa27cc97/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/122da667b73de805455abc26fa27cc97/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/b9e249c7c94f2f056b04e44cb1e24c6c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/b9e249c7c94f2f056b04e44cb1e24c6c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/3e9a2ca3133cf7acdd8f0edde8331697/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/3e9a2ca3133cf7acdd8f0edde8331697/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/65abe2bbf9281fdb903f220d7e783a9c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/65abe2bbf9281fdb903f220d7e783a9c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/4b62ae5ab3b18292f40a9e97a1ba01c0/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/srivallik./.gradle/caches/8.9/transforms/4b62ae5ab3b18292f40a9e97a1ba01c0/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/71bfe1108456f65477b5007187f9c572/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/71bfe1108456f65477b5007187f9c572/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/0db90da8f87815c6a0f01c0e63c300a6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/0db90da8f87815c6a0f01c0e63c300a6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/ff13ec860e45df432b6f36effac4cef3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/srivallik./.gradle/caches/8.9/transforms/ff13ec860e45df432b6f36effac4cef3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/srivallik./.gradle/caches/8.9/transforms/bd74aca7544af4535cbdf4f4078dda1c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/srivallik./.gradle/caches/8.9/transforms/bd74aca7544af4535cbdf4f4078dda1c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/srivallik./AndroidStudioProjects/ToDoListApp/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/srivallik./.gradle/caches/8.9/transforms/6436e80b1c1511539ebe076172fdc44b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/srivallik./.gradle/caches/8.9/transforms/b5df51a23aaf09ebceb491adf34e2bca/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.example.to_dolistapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.to_dolistapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/srivallik./.gradle/caches/8.9/transforms/63d57f4ca3f30ef0c274e88f5f1cb919/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/srivallik./.gradle/caches/8.9/transforms/1b312f62cfd2fff8af409ab5d91807a0/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/srivallik./.gradle/caches/8.9/transforms/fbc2c07acba7aa7dba836b37ccc6f854/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/srivallik./.gradle/caches/8.9/transforms/bc98bc24628c62d41dd5ffbb4469b0b2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
