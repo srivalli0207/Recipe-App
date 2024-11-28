@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/layout_add_task_dialog.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/layout/add_task_dialog.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/layout_loading_dialog.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/layout/loading_dialog.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_view_module.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_view_module.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/raw_loading.json.flat",
+        "source": "com.example.to_dolistapp-main-39:/raw/loading.json"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_delete.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_edit.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_view_list.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_view_list.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_search.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_close.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/layout_view_task_list_layout.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/layout/view_task_list_layout.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_sort.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_sort.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/font_sour_gummy_regular.ttf.flat",
+        "source": "com.example.to_dolistapp-main-39:/font/sour_gummy_regular.ttf"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/layout_view_task_grid_layout.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/layout/view_task_grid_layout.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/layout_update_task_dialog.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/layout/update_task_dialog.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.to_dolistapp-pngs-33:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.to_dolistapp-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.to_dolistapp-merged_res-37:/drawable_ic_add_circle.xml.flat",
+        "source": "com.example.to_dolistapp-main-39:/drawable/ic_add_circle.xml"
+    }
+]
