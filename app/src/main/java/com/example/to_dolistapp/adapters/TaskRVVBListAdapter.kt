@@ -30,9 +30,14 @@ class TaskRVVBListAdapter(
             viewTaskListLayoutBinding.titleTxt.text = task.title
             viewTaskListLayoutBinding.descrTxt.text = task.description
 
-            val dateFormat = SimpleDateFormat("dd-MMM-yyyy HH:mm:ss a", Locale.getDefault())
+            if(task.day == "" && task.month == "" && task.year == ""){
+                val dateFormat = SimpleDateFormat("dd-MMM-yyyy HH:mm:ss a", Locale.getDefault())
 
-            viewTaskListLayoutBinding.dateTxt.text = dateFormat.format(task.date)
+            }else{
+               val dateFormat = task.day +"-" + task.month + "-" + task.year
+                viewTaskListLayoutBinding.dateTxt.text = dateFormat
+            }
+
 
             viewTaskListLayoutBinding.deleteImg.setOnClickListener {
                 if (adapterPosition != -1) {
@@ -58,9 +63,13 @@ class TaskRVVBListAdapter(
             viewTaskGridLayoutBinding.titleTxt.text = task.title
             viewTaskGridLayoutBinding.descrTxt.text = task.description
 
-            val dateFormat = SimpleDateFormat("dd-MMM-yyyy HH:mm:ss a", Locale.getDefault())
+            if(task.day == "" && task.month == "" && task.year == ""){
+                val dateFormat = SimpleDateFormat("dd-MMM-yyyy HH:mm:ss a", Locale.getDefault())
 
-            viewTaskGridLayoutBinding.dateTxt.text = dateFormat.format(task.date)
+            }else{
+                val dateFormat = task.day +"-" + task.month + "-" + task.year
+                viewTaskGridLayoutBinding.dateTxt.text = dateFormat
+            }
 
             viewTaskGridLayoutBinding.deleteImg.setOnClickListener {
                 if (adapterPosition != -1) {

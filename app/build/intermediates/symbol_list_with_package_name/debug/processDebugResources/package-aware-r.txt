@@ -3289,6 +3289,9 @@ id customPanel
 id cut
 id dateTxt
 id date_picker_actions
+id dates
+id day
+id dayL
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3409,6 +3412,7 @@ id listOrGridImg
 id list_item
 id lottie_layer_name
 id m3_side_sheet
+id maingrid
 id marquee
 id masked
 id match_constraint
@@ -3437,6 +3441,8 @@ id matrix
 id message
 id middle
 id mini
+id month
+id monthL
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3561,6 +3567,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id setDayButton
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3639,9 +3646,11 @@ id titleTaskTxt
 id titleTxt
 id title_template
 id todayTxt
+id todayview
 id toggle
 id top
 id topPanel
+id totalview
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3681,6 +3690,8 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id year
+id yearL
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

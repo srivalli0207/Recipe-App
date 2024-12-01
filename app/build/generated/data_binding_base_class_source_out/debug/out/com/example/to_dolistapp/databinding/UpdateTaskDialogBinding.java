@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,6 +28,15 @@ public final class UpdateTaskDialogBinding implements ViewBinding {
   public final ImageView closeImg;
 
   @NonNull
+  public final LinearLayout dates;
+
+  @NonNull
+  public final TextInputEditText day;
+
+  @NonNull
+  public final TextInputLayout dayL;
+
+  @NonNull
   public final TextInputEditText edTaskDesc;
 
   @NonNull
@@ -39,6 +49,12 @@ public final class UpdateTaskDialogBinding implements ViewBinding {
   public final TextInputLayout edTaskTitleL;
 
   @NonNull
+  public final TextInputEditText month;
+
+  @NonNull
+  public final TextInputLayout monthL;
+
+  @NonNull
   public final TextView titleTaskTxt;
 
   @NonNull
@@ -47,19 +63,35 @@ public final class UpdateTaskDialogBinding implements ViewBinding {
   @NonNull
   public final View viewHLine;
 
+  @NonNull
+  public final TextInputEditText year;
+
+  @NonNull
+  public final TextInputLayout yearL;
+
   private UpdateTaskDialogBinding(@NonNull MaterialCardView rootView, @NonNull ImageView closeImg,
+      @NonNull LinearLayout dates, @NonNull TextInputEditText day, @NonNull TextInputLayout dayL,
       @NonNull TextInputEditText edTaskDesc, @NonNull TextInputLayout edTaskDescL,
       @NonNull TextInputEditText edTaskTitle, @NonNull TextInputLayout edTaskTitleL,
-      @NonNull TextView titleTaskTxt, @NonNull Button updateTaskBtn, @NonNull View viewHLine) {
+      @NonNull TextInputEditText month, @NonNull TextInputLayout monthL,
+      @NonNull TextView titleTaskTxt, @NonNull Button updateTaskBtn, @NonNull View viewHLine,
+      @NonNull TextInputEditText year, @NonNull TextInputLayout yearL) {
     this.rootView = rootView;
     this.closeImg = closeImg;
+    this.dates = dates;
+    this.day = day;
+    this.dayL = dayL;
     this.edTaskDesc = edTaskDesc;
     this.edTaskDescL = edTaskDescL;
     this.edTaskTitle = edTaskTitle;
     this.edTaskTitleL = edTaskTitleL;
+    this.month = month;
+    this.monthL = monthL;
     this.titleTaskTxt = titleTaskTxt;
     this.updateTaskBtn = updateTaskBtn;
     this.viewHLine = viewHLine;
+    this.year = year;
+    this.yearL = yearL;
   }
 
   @Override
@@ -95,6 +127,24 @@ public final class UpdateTaskDialogBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.dates;
+      LinearLayout dates = ViewBindings.findChildViewById(rootView, id);
+      if (dates == null) {
+        break missingId;
+      }
+
+      id = R.id.day;
+      TextInputEditText day = ViewBindings.findChildViewById(rootView, id);
+      if (day == null) {
+        break missingId;
+      }
+
+      id = R.id.dayL;
+      TextInputLayout dayL = ViewBindings.findChildViewById(rootView, id);
+      if (dayL == null) {
+        break missingId;
+      }
+
       id = R.id.edTaskDesc;
       TextInputEditText edTaskDesc = ViewBindings.findChildViewById(rootView, id);
       if (edTaskDesc == null) {
@@ -119,6 +169,18 @@ public final class UpdateTaskDialogBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.month;
+      TextInputEditText month = ViewBindings.findChildViewById(rootView, id);
+      if (month == null) {
+        break missingId;
+      }
+
+      id = R.id.monthL;
+      TextInputLayout monthL = ViewBindings.findChildViewById(rootView, id);
+      if (monthL == null) {
+        break missingId;
+      }
+
       id = R.id.titleTaskTxt;
       TextView titleTaskTxt = ViewBindings.findChildViewById(rootView, id);
       if (titleTaskTxt == null) {
@@ -137,8 +199,21 @@ public final class UpdateTaskDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new UpdateTaskDialogBinding((MaterialCardView) rootView, closeImg, edTaskDesc,
-          edTaskDescL, edTaskTitle, edTaskTitleL, titleTaskTxt, updateTaskBtn, viewHLine);
+      id = R.id.year;
+      TextInputEditText year = ViewBindings.findChildViewById(rootView, id);
+      if (year == null) {
+        break missingId;
+      }
+
+      id = R.id.yearL;
+      TextInputLayout yearL = ViewBindings.findChildViewById(rootView, id);
+      if (yearL == null) {
+        break missingId;
+      }
+
+      return new UpdateTaskDialogBinding((MaterialCardView) rootView, closeImg, dates, day, dayL,
+          edTaskDesc, edTaskDescL, edTaskTitle, edTaskTitleL, month, monthL, titleTaskTxt,
+          updateTaskBtn, viewHLine, year, yearL);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

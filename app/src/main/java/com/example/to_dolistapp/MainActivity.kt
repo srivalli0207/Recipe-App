@@ -4,10 +4,12 @@ import android.app.Dialog
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.LayoutInflater
 import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -43,7 +45,7 @@ import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
 import java.util.Date
 import java.util.UUID
-
+import java.util.Calendar
 class MainActivity : AppCompatActivity() {
 
     private val mainBinding: ActivityMainBinding by lazy {
@@ -80,13 +82,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(mainBinding.root)
 
-
         // Add task start
         val addCloseImg = addTaskDialog.findViewById<ImageView>(R.id.closeImg)
         addCloseImg.setOnClickListener { addTaskDialog.dismiss() }
 
         val addETTitle = addTaskDialog.findViewById<TextInputEditText>(R.id.edTaskTitle)
         val addETTitleL = addTaskDialog.findViewById<TextInputLayout>(R.id.edTaskTitleL)
+
+        val dayEditText = addTaskDialog.findViewById<TextInputEditText>(R.id.day)
+        val monthEditText = addTaskDialog.findViewById<TextInputEditText>(R.id.month)
+        val yearEditText = addTaskDialog.findViewById<TextInputEditText>(R.id.year)
+
+        val setDayButton = addTaskDialog.findViewById<Button>(R.id.setDayButton)
+        setDayButton.setOnClickListener{
+            val calendar = Calendar.getInstance()
+            val day = calendar.get(Calendar.DAY_OF_MONTH)
+            val month = calendar.get(Calendar.MONTH) + 1 // Months are 0-based
+            val year = calendar.get(Calendar.YEAR)
+
+            dayEditText.setText(day.toString())
+            monthEditText.setText(month.toString())
+            yearEditText.setText(year.toString())
+
+        }
 
         addETTitle.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
@@ -108,22 +126,71 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+        val addDay = addTaskDialog.findViewById<TextInputEditText>(R.id.day)
+        val addDayL = addTaskDialog.findViewById<TextInputLayout>(R.id.dayL)
+
+        addDay.addTextChangedListener(object: TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                validateEditText(addDay, addDayL)
+            }
+        })
+
+        val addMonth = addTaskDialog.findViewById<TextInputEditText>(R.id.month)
+        val addMonthL = addTaskDialog.findViewById<TextInputLayout>(R.id.monthL)
+
+        addMonth.addTextChangedListener(object: TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                validateEditText(addMonth, addMonthL)
+            }
+        })
+
+        val addYear = addTaskDialog.findViewById<TextInputEditText>(R.id.year)
+        val addYearL = addTaskDialog.findViewById<TextInputLayout>(R.id.yearL)
+
+        addYear.addTextChangedListener(object: TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                validateEditText(addYear, addYearL)
+            }
+        })
+
         mainBinding.addTaskFABtn.setOnClickListener {
             clearEditText(addETTitle, addETTitleL)
             clearEditText(addETDesc, addETDescL)
+            clearEditText(addDay, addDayL)
+            clearEditText(addMonth, addMonthL)
+            clearEditText(addYear, addYearL)
             addTaskDialog.show()
         }
+
         val saveTaskBtn = addTaskDialog.findViewById<Button>(R.id.saveTaskBtn)
         saveTaskBtn.setOnClickListener {
+
+            val day = addDay.text.toString().trim()
+            val month = addMonth.text.toString().trim()
+            val year = addYear.text.toString().trim()
+            val dates = "$day$month$year"
+
             if (validateEditText(addETTitle, addETTitleL)
                 && validateEditText(addETDesc, addETDescL)
+                && validateEditText(addDay, addDayL)
+                && validateEditText(addMonth, addMonthL)
+                && validateEditText(addYear, addYearL)
             ) {
 
                 val newTask = Task(
                     UUID.randomUUID().toString(),
                     addETTitle.text.toString().trim(),
                     addETDesc.text.toString().trim(),
-                    Date()
+                    addDay.text.toString().trim(),
+                    addMonth.text.toString().trim(),
+                    addYear.text.toString().trim(),
+                    dates
                 )
                 hideKeyBoard(it)
                 addTaskDialog.dismiss()
@@ -131,7 +198,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
         // Add task end
-
 
         // Update Task Start
         val updateETTitle = updateTaskDialog.findViewById<TextInputEditText>(R.id.edTaskTitle)
@@ -181,7 +247,6 @@ class MainActivity : AppCompatActivity() {
         mainBinding.listOrGridImg.setOnClickListener {
             isListMutableLiveData.postValue(!isListMutableLiveData.value!!)
         }
-
         val taskRVVBListAdapter = TaskRVVBListAdapter(isListMutableLiveData ) { type, position, task ->
             if (type == "delete") {
                 taskViewModel
@@ -191,6 +256,12 @@ class MainActivity : AppCompatActivity() {
                 // Restore Deleted task
                 restoreDeletedTask(task)
             } else if (type == "update") {
+
+                val day = addDay.text.toString().trim()
+                val month = addMonth.text.toString().trim()
+                val year = addYear.text.toString().trim()
+                val dates = "$day$month$year"
+
                 updateETTitle.setText(task.title)
                 updateETDesc.setText(task.description)
                 updateTaskBtn.setOnClickListener {
@@ -199,10 +270,12 @@ class MainActivity : AppCompatActivity() {
                     ) {
                         val updateTask = Task(
                             task.id,
-                            updateETTitle.text.toString().trim(),
-                            updateETDesc.text.toString().trim(),
-//                           here i Date updated
-                            Date()
+                            addETTitle.text.toString().trim(),
+                            addETDesc.text.toString().trim(),
+                            addDay.text.toString().trim(),
+                            addMonth.text.toString().trim(),
+                            addYear.text.toString().trim(),
+                            dates
                         )
                         hideKeyBoard(it)
                         updateTaskDialog.dismiss()
@@ -233,6 +306,8 @@ class MainActivity : AppCompatActivity() {
         statusCallback()
 
         callSearch()
+        showToday()
+        showAll()
 
     }
 
@@ -247,6 +322,24 @@ class MainActivity : AppCompatActivity() {
         snackBar.show()
     }
 
+    private fun showToday(){
+        val calendar = Calendar.getInstance()
+        val todayDay = calendar.get(Calendar.DAY_OF_MONTH).toString().trim()
+        val todayMonth = (calendar.get(Calendar.MONTH)+1).toString().trim()
+        val todayYear = calendar.get(Calendar.YEAR).toString().trim()
+
+        val date = "$todayDay$todayMonth$todayYear"
+
+        mainBinding.todayview.setOnClickListener{
+            taskViewModel.showTaskList(date)
+        }
+    }
+
+    private fun showAll(){
+        mainBinding.totalview.setOnClickListener{
+            callSortByLiveData()
+        }
+    }
     private fun callSearch() {
         mainBinding.edSearch.addTextChangedListener(object : TextWatcher{
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}

@@ -3,7 +3,6 @@ package com.example.to_dolistapp.repository
 import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.room.Query
 import com.example.to_dolistapp.database.TaskDatabase
 import com.example.to_dolistapp.models.Task
 import com.example.to_dolistapp.utils.Resource
@@ -98,6 +97,18 @@ class TaskRepository(application: Application) {
             }
         } catch (e: Exception) {
             _statusLiveData.postValue(Error(e.message.toString()))
+        }
+    }
+
+    fun showTaskList(query: String){
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                _taskStateFlow.emit(Loading())
+                val result = taskDao.showTaskList("%${query}%")
+                _taskStateFlow.emit(Success("loading", result))
+            } catch (e: Exception) {
+                _taskStateFlow.emit(Error(e.message.toString()))
+            }
         }
     }
 

@@ -7,6 +7,7 @@ import androidx.room.Query
 import com.example.to_dolistapp.models.Task
 import com.example.to_dolistapp.repository.TaskRepository
 import com.example.to_dolistapp.utils.Resource
+import java.util.Calendar
 
 class TaskViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -44,5 +45,9 @@ class TaskViewModel(application: Application) : AndroidViewModel(application) {
     }
     fun searchTaskList(query: String){
         taskRepository.searchTaskList(query)
+    }
+
+    fun showTaskList(query: String){
+        taskRepository.showTaskList(query)
     }
 }

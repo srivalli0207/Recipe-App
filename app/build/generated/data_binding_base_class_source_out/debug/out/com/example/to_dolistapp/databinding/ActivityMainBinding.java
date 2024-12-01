@@ -50,13 +50,21 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView todayTxt;
 
   @NonNull
+  public final ExtendedFloatingActionButton todayview;
+
+  @NonNull
+  public final ExtendedFloatingActionButton totalview;
+
+  @NonNull
   public final TextView welcomeTxt;
 
   private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
       @NonNull ExtendedFloatingActionButton addTaskFABtn, @NonNull TextInputEditText edSearch,
       @NonNull TextInputLayout edSearchL, @NonNull ImageView listOrGridImg,
       @NonNull NestedScrollView nestedScrollView, @NonNull ImageView sortImg,
-      @NonNull RecyclerView taskRV, @NonNull TextView todayTxt, @NonNull TextView welcomeTxt) {
+      @NonNull RecyclerView taskRV, @NonNull TextView todayTxt,
+      @NonNull ExtendedFloatingActionButton todayview,
+      @NonNull ExtendedFloatingActionButton totalview, @NonNull TextView welcomeTxt) {
     this.rootView = rootView;
     this.addTaskFABtn = addTaskFABtn;
     this.edSearch = edSearch;
@@ -66,6 +74,8 @@ public final class ActivityMainBinding implements ViewBinding {
     this.sortImg = sortImg;
     this.taskRV = taskRV;
     this.todayTxt = todayTxt;
+    this.todayview = todayview;
+    this.totalview = totalview;
     this.welcomeTxt = welcomeTxt;
   }
 
@@ -144,6 +154,18 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.todayview;
+      ExtendedFloatingActionButton todayview = ViewBindings.findChildViewById(rootView, id);
+      if (todayview == null) {
+        break missingId;
+      }
+
+      id = R.id.totalview;
+      ExtendedFloatingActionButton totalview = ViewBindings.findChildViewById(rootView, id);
+      if (totalview == null) {
+        break missingId;
+      }
+
       id = R.id.welcomeTxt;
       TextView welcomeTxt = ViewBindings.findChildViewById(rootView, id);
       if (welcomeTxt == null) {
@@ -151,7 +173,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((CoordinatorLayout) rootView, addTaskFABtn, edSearch,
-          edSearchL, listOrGridImg, nestedScrollView, sortImg, taskRV, todayTxt, welcomeTxt);
+          edSearchL, listOrGridImg, nestedScrollView, sortImg, taskRV, todayTxt, todayview,
+          totalview, welcomeTxt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

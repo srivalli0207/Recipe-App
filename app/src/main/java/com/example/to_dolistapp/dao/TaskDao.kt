@@ -14,8 +14,12 @@ interface TaskDao {
     fun getTaskListSortByTaskTitle(isAsc: Boolean) : Flow<List<Task>>
 
     @Query("""SELECT * FROM Task ORDER BY
-        CASE WHEN :isAsc = 1 THEN date END ASC, 
-        CASE WHEN :isAsc = 0 THEN date END DESC""")
+        CASE WHEN :isAsc = 1 THEN year END ASC, 
+        CASE WHEN :isAsc = 1 THEN month END ASC,
+        CASE WHEN :isAsc = 1 THEN day END ASC,
+        CASE WHEN :isAsc = 0 THEN year END DESC,
+        CASE WHEN :isAsc = 0 THEN month END DESC,
+        CASE WHEN :isAsc = 0 THEN day END DESC""")
     fun getTaskListSortByTaskDate(isAsc: Boolean) : Flow<List<Task>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -40,6 +44,9 @@ interface TaskDao {
     suspend fun updateTaskPaticularField(taskId:String,title:String,description:String): Int
 
 
-    @Query("SELECT * FROM Task WHERE taskTitle LIKE :query ORDER BY date DESC")
+    @Query("SELECT * FROM Task WHERE taskTitle LIKE :query")
     fun searchTaskList(query: String) : Flow<List<Task>>
+
+    @Query("SELECT * FROM Task WHERE date LIKE :query")
+    fun showTaskList(query: String) : Flow<List<Task>>
 }
