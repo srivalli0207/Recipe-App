@@ -323,14 +323,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showToday(){
-        val calendar = Calendar.getInstance()
-        val todayDay = calendar.get(Calendar.DAY_OF_MONTH).toString().trim()
-        val todayMonth = (calendar.get(Calendar.MONTH)+1).toString().trim()
-        val todayYear = calendar.get(Calendar.YEAR).toString().trim()
-
-        val date = "$todayDay$todayMonth$todayYear"
 
         mainBinding.todayview.setOnClickListener{
+            val calendar = Calendar.getInstance()
+            val todayDay = calendar.get(Calendar.DAY_OF_MONTH).toString().trim()
+            val todayMonth = (calendar.get(Calendar.MONTH)+1).toString().trim()
+            val todayYear = calendar.get(Calendar.YEAR).toString().trim()
+
+            val date = "$todayDay$todayMonth$todayYear"
             taskViewModel.showTaskList(date)
         }
     }
